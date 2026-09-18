@@ -30,6 +30,7 @@ export function SiteHeader() {
   }, [])
 
   return (
+    <>
     <header
       className={`sticky top-0 z-40 border-b transition-shadow ${
         scrolled ? 'border-border bg-ivory/95 shadow-sm backdrop-blur' : 'border-transparent bg-ivory'
@@ -83,8 +84,9 @@ export function SiteHeader() {
           <Menu className="h-6 w-6" aria-hidden="true" />
         </button>
       </div>
-
-      <MobileNavigation open={open} onClose={() => setOpen(false)} items={NAV} />
     </header>
+
+    <MobileNavigation open={open} onClose={() => setOpen(false)} items={NAV} />
+    </>
   )
 }
