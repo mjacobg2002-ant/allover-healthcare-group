@@ -38,9 +38,9 @@ export function SiteFooter() {
       <div className="container-x grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <img
-            src={IMG.logo}
+            src={IMG.logoLight}
             alt="Allover Healthcare Group"
-            className="h-20 w-auto rounded-lg bg-white px-5 py-3.5 sm:h-24"
+            className="h-20 w-auto sm:h-24"
             width={2166}
             height={704}
           />

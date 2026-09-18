@@ -75,6 +75,7 @@ export type DivisionKey = 'health' | 'tech' | 'academy'
 
 export const IMG = {
   logo: '/images/allover/allover-logo.png',
+  logoLight: '/images/allover/allover-logo-light.png', // navy wordmark recolored white for dark backgrounds
   groupSession: '/images/allover/prp-Services.png',
   consult: '/images/allover/about.png',
   counseling: '/images/allover/SubHome.png',
