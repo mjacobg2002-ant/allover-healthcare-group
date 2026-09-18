@@ -10,8 +10,7 @@ export interface NavItem {
 
 const NAV: NavItem[] = [
   { label: 'Services', href: '#services' },
-  { label: 'For adults', href: '#services' },
-  { label: 'For children & families', href: '#services' },
+  { label: 'Find support', href: '#pathways' },
   { label: 'Referrals', href: '#referrals' },
   { label: 'Technology', href: '#careware' },
   { label: 'Academy', href: '#academy' },
@@ -47,12 +46,12 @@ export function SiteHeader() {
           />
         </a>
 
-        <nav className="hidden items-center gap-1 xl:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Primary">
           {NAV.map((item) => (
             <a
               key={item.label}
               href={item.href}
-              className="rounded-full px-3 py-2 text-[0.9rem] font-medium text-ink/85 transition-colors hover:bg-primary-soft hover:text-primary"
+              className="rounded-full px-2.5 py-2 text-[0.88rem] font-medium text-ink/85 transition-colors hover:bg-primary-soft hover:text-primary xl:px-3 xl:text-[0.9rem]"
             >
               {item.label}
             </a>

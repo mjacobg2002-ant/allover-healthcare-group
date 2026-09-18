@@ -2,7 +2,7 @@ import { MapPin, Phone, Clock, Printer, Mail, Navigation, AlertTriangle } from '
 import { ORG } from '../config/site'
 
 export function LocationContact() {
-  const { address, phone, email, emailHref, mapsDirections } = ORG
+  const { address, phone, email, emailHref, mapsDirections, mapsEmbed } = ORG
 
   return (
     <section id="contact" className="scroll-mt-20 bg-sage py-16 md:py-24" aria-labelledby="contact-h">
@@ -89,41 +89,26 @@ export function LocationContact() {
             </p>
           </div>
 
-          {/* Map panel — static, links to correctly encoded directions URL */}
-          <a
-            href={mapsDirections}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="reveal group relative flex min-h-[320px] flex-col justify-end overflow-hidden rounded-2xl border border-border bg-navy p-7 text-ivory"
-            aria-label="Open directions to Allover Healthcare Group in Google Maps"
-          >
-            {/* stylized abstract map grid */}
-            <svg
-              className="absolute inset-0 h-full w-full opacity-25"
-              aria-hidden="true"
-              preserveAspectRatio="none"
-              viewBox="0 0 400 320"
+          {/* Embedded Google Map (keyless) with a directions overlay */}
+          <div className="reveal card relative min-h-[340px] overflow-hidden p-0">
+            <iframe
+              src={mapsEmbed}
+              title={`Map showing ${ORG.name} at ${address.street}, ${address.city}, ${address.state}`}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="absolute inset-0 h-full w-full border-0"
+              allowFullScreen
+            />
+            <a
+              href={mapsDirections}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute bottom-4 left-4 right-4 inline-flex items-center justify-center gap-2 rounded-full bg-navy/95 px-5 py-3 text-sm font-semibold text-ivory shadow-lg backdrop-blur transition-colors hover:bg-navy sm:right-auto"
             >
-              <g stroke="#ffffff" strokeWidth="1">
-                {[40, 100, 160, 220, 280].map((y) => (
-                  <line key={y} x1="0" y1={y} x2="400" y2={y} />
-                ))}
-                {[60, 140, 220, 300, 360].map((x) => (
-                  <line key={x} x1={x} y1="0" x2={x} y2="320" />
-                ))}
-                <path d="M0 250 L160 160 L280 210 L400 120" strokeWidth="3" opacity="0.7" />
-              </g>
-            </svg>
-            <div className="relative">
-              <span className="inline-flex items-center gap-2 rounded-full bg-ivory px-4 py-2 text-sm font-bold text-navy shadow">
-                <MapPin className="h-4 w-4 text-primary" aria-hidden="true" />
-                {address.street}, {address.city}
-              </span>
-              <p className="mt-3 text-sm text-white/80 group-hover:text-white">
-                {address.note} — tap to open directions in Google Maps.
-              </p>
-            </div>
-          </a>
+              <Navigation className="h-4 w-4" aria-hidden="true" />
+              Get directions in Google Maps
+            </a>
+          </div>
         </div>
       </div>
     </section>

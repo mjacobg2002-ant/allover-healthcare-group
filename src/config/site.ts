@@ -44,6 +44,11 @@ export const ORG = {
   mapsDirections:
     'https://www.google.com/maps/dir/?api=1&destination=' +
     encodeURIComponent('5450 Reisterstown Road, Suite 304, Baltimore, MD 21215'),
+  // Keyless Google Maps embed (no API key required)
+  mapsEmbed:
+    'https://maps.google.com/maps?q=' +
+    encodeURIComponent('5450 Reisterstown Road, Suite 304, Baltimore, MD 21215') +
+    '&z=15&output=embed',
 } as const
 
 export const CRISIS = {
