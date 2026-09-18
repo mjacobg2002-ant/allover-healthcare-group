@@ -40,9 +40,9 @@ export function SiteFooter() {
           <img
             src={IMG.logo}
             alt="Allover Healthcare Group"
-            className="h-10 w-auto rounded bg-ivory/95 p-1.5"
-            width={314}
-            height={52}
+            className="h-12 w-auto rounded-lg bg-white px-3 py-2"
+            width={2166}
+            height={704}
           />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-ivory/70">
             Community-based behavioral-health, rehabilitation, substance-use, autism-waiver and

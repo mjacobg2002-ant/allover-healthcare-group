@@ -58,13 +58,13 @@ export function AudiencePathways() {
                   onClick={() => setActive(i)}
                   className={`flex items-center justify-between gap-3 rounded-xl border px-5 py-4 text-left text-[0.98rem] font-medium transition-colors ${
                     selected
-                      ? 'border-health bg-white text-ink shadow-sm'
+                      ? 'border-sky bg-white text-ink shadow-sm'
                       : 'border-white/15 bg-white/5 text-white/90 hover:bg-white/10'
                   }`}
                 >
                   {p.label}
                   <ArrowRight
-                    className={`h-4 w-4 shrink-0 transition-transform ${selected ? 'text-health' : 'text-white/40'}`}
+                    className={`h-4 w-4 shrink-0 transition-transform ${selected ? 'text-sky' : 'text-white/40'}`}
                     aria-hidden="true"
                   />
                 </button>
@@ -79,7 +79,7 @@ export function AudiencePathways() {
             aria-labelledby={`ptab-${current.id}`}
             className="rounded-2xl border border-white/15 bg-white/[0.04] p-7"
           >
-            <p className="text-sm font-semibold uppercase tracking-widest text-health">Your next steps</p>
+            <p className="text-sm font-semibold uppercase tracking-widest text-sky">Your next steps</p>
             <p className="mt-2 font-serif text-2xl text-ivory">{current.label}</p>
             <ul className="mt-6 space-y-3">
               {current.actions.map((a) => (

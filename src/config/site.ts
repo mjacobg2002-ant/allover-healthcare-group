@@ -74,7 +74,7 @@ export const LINKS = {
 export type DivisionKey = 'health' | 'tech' | 'academy'
 
 export const IMG = {
-  logo: '/images/allover/AlloverLogo.png',
+  logo: '/images/allover/allover-logo.png',
   groupSession: '/images/allover/prp-Services.png',
   consult: '/images/allover/about.png',
   counseling: '/images/allover/SubHome.png',

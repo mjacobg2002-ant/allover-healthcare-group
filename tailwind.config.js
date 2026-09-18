@@ -4,34 +4,37 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Unified brand system: navy authority (from the logo wordmark) with a
-        // warm terracotta / clay accent. No greens.
-        ink: '#26211d', // heading text (warm charcoal)
-        body: '#514a44', // body text (warm slate)
-        ivory: '#f8f6f1', // warm ivory surface
-        sage: '#f2ede5', // warm sand background (neutral surface)
-        border: '#e5ded3',
+        // Unified brand system sampled from the authentic logo:
+        // deep royal navy (#002080), bright azure (#00a0f0), silver swoosh.
+        ink: '#0c2444', // heading text (deep navy)
+        body: '#48546a', // body text (cool slate)
+        ivory: '#f6f9fd', // clean cool-white surface
+        sage: '#e9f1fa', // pale blue background (neutral surface)
+        border: '#d5e0ee',
+        silver: '#b0b0b0', // logo swoosh neutral accent
 
-        // Primary — terracotta / clay (warmth, humanity, dignity)
+        // Primary — deep royal navy (the wordmark)
         primary: {
-          DEFAULT: '#b4532e',
-          hover: '#983f1f',
-          soft: '#f7e7dd',
+          DEFAULT: '#0a2a80',
+          hover: '#071f60',
+          soft: '#e4ebf7',
         },
-        // Secondary — midnight navy (authority)
+        // Secondary — deepest navy for dark sections & footer
         navy: {
-          DEFAULT: '#16324f',
-          hover: '#0f2540',
+          DEFAULT: '#0c2748',
+          hover: '#081b34',
           soft: '#e5ecf3',
         },
+        // Bright brand azure — accents, focus, motif, hover fills (large/deco use)
+        sky: '#0b9fe8',
         // Division accents
-        health: '#b4532e', // terracotta — healthcare (matches primary)
-        tech: '#2b5f9e', // blue — technology
-        academy: '#b7791f', // warm amber/gold — academy
+        health: '#0a2a80', // navy — healthcare (matches primary)
+        tech: '#0e6fbf', // readable azure — technology
+        academy: '#b7791f', // warm amber/gold — academy differentiator
         // States
-        focus: '#b4532e',
+        focus: '#0b9fe8',
         error: '#b3261e',
-        success: '#2b5f9e',
+        success: '#0e6fbf',
       },
       fontFamily: {
         serif: ['Fraunces', 'Georgia', 'serif'],

@@ -2,12 +2,28 @@
   "note": "All assets downloaded from the live source site https://www.alloverhealthcaregroup.com/ for concept-presentation purposes only. Not re-hosted for production. Most photos on the source site are generic stock/clip-art rather than authentic first-party photography.",
   "assets": [
     {
+      "file": "allover-logo.png",
+      "originalUrl": "Provided by client (high-resolution brand logo), trimmed of transparent padding",
+      "dimensions": "2166x704",
+      "type": "logo",
+      "usage": "Header + footer — current high-resolution brand wordmark (navy + azure + silver swoosh). Palette sampled from this file.",
+      "usedInConcept": true
+    },
+    {
+      "file": "allover-logo-2025.png",
+      "originalUrl": "Provided by client (untrimmed original)",
+      "dimensions": "2168x725",
+      "type": "logo",
+      "usage": "Untrimmed source of allover-logo.png — kept for reference",
+      "usedInConcept": false
+    },
+    {
       "file": "AlloverLogo.png",
       "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/AlloverLogo.png",
       "dimensions": "314x52",
       "type": "logo",
-      "usage": "Header, footer, favicon reference — authentic brand wordmark",
-      "usedInConcept": true
+      "usage": "Superseded by the client-provided high-res logo; kept for reference",
+      "usedInConcept": false
     },
     {
       "file": "favicon.ico",

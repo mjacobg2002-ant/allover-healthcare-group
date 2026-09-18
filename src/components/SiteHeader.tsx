@@ -40,9 +40,9 @@ export function SiteHeader() {
           <img
             src={IMG.logo}
             alt="Allover Healthcare Group — Healthcare, Technology, Education Solutions"
-            className="h-9 w-auto sm:h-10"
-            width={314}
-            height={52}
+            className="h-10 w-auto sm:h-11"
+            width={2166}
+            height={704}
           />
         </a>
 

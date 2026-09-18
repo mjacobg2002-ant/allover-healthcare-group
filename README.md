@@ -24,12 +24,12 @@ restrained color and authentic-first imagery — not from flashy effects.
 
 - **Type:** Fraunces (editorial serif headings) + Inter (highly readable UI/body),
   responsive `clamp()` sizing, sentence case, short measure.
-- **Color:** navy authority (from the logo wordmark) with a warm **terracotta /
-  clay** accent — no greens. Terracotta **primary** + **healthcare** accent,
-  midnight **navy** for authority, **blue** for technology, warm **amber** for
-  the academy — distinguishable divisions inside one unified system. Tokens live
-  in `tailwind.config.js` and are WCAG-AA oriented (warm-charcoal body text on
-  warm ivory/sand, never light-gray-on-white).
+- **Color:** sampled directly from the authentic logo — deep royal **navy**
+  (`#002080`), bright **azure** (`#00a0f0`) and a silver swoosh. Navy **primary**
+  + **healthcare** accent, a readable **azure** for technology, bright sky for
+  accents/focus/motif, and warm **amber** for the academy (its one differentiator).
+  Tokens live in `tailwind.config.js` and are WCAG-AA oriented (deep-navy body
+  text on cool off-white; the bright azure is reserved for large/decorative use).
 
 ## How the three divisions are organized
 
