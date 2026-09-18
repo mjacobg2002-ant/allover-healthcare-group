@@ -4,19 +4,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Unified brand system derived from the authentic Allover logo
-        // (navy wordmark + teal "Healthcare | Technology | Education" line)
-        ink: '#16241f', // heading text (deep evergreen-charcoal)
-        body: '#3a4a45', // body text
-        ivory: '#f7f5ef', // warm ivory surface
-        sage: '#eef2ee', // pale mineral background
-        border: '#dfe4de',
+        // Unified brand system: navy authority (from the logo wordmark) with a
+        // warm terracotta / clay accent. No greens.
+        ink: '#26211d', // heading text (warm charcoal)
+        body: '#514a44', // body text (warm slate)
+        ivory: '#f8f6f1', // warm ivory surface
+        sage: '#f2ede5', // warm sand background (neutral surface)
+        border: '#e5ded3',
 
-        // Primary — deep evergreen / mineral green (stability, healing)
+        // Primary — terracotta / clay (warmth, humanity, dignity)
         primary: {
-          DEFAULT: '#1f5c4d',
-          hover: '#184a3e',
-          soft: '#e4efe9',
+          DEFAULT: '#b4532e',
+          hover: '#983f1f',
+          soft: '#f7e7dd',
         },
         // Secondary — midnight navy (authority)
         navy: {
@@ -25,13 +25,13 @@ export default {
           soft: '#e5ecf3',
         },
         // Division accents
-        health: '#1f8a7a', // muted teal — healthcare
+        health: '#b4532e', // terracotta — healthcare (matches primary)
         tech: '#2b5f9e', // blue — technology
         academy: '#b7791f', // warm amber/gold — academy
         // States
-        focus: '#1f8a7a',
+        focus: '#b4532e',
         error: '#b3261e',
-        success: '#1f7a4d',
+        success: '#2b5f9e',
       },
       fontFamily: {
         serif: ['Fraunces', 'Georgia', 'serif'],

@@ -13,7 +13,7 @@ export function PathwayMotif({ className = '' }: { className?: string }) {
     >
       <defs>
         <linearGradient id="pm-stroke" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#1f8a7a" stopOpacity="0.9" />
+          <stop offset="0" stopColor="#b4532e" stopOpacity="0.9" />
           <stop offset="1" stopColor="#16324f" stopOpacity="0.7" />
         </linearGradient>
       </defs>
@@ -31,11 +31,11 @@ export function PathwayMotif({ className = '' }: { className?: string }) {
         opacity="0.35"
       />
       {/* overlapping circles = connected people, care, community */}
-      <circle cx="320" cy="190" r="7" fill="#1f8a7a" />
+      <circle cx="320" cy="190" r="7" fill="#b4532e" />
       <circle cx="360" cy="250" r="5" fill="#16324f" />
-      <circle cx="180" cy="180" r="5" fill="#1f5c4d" />
+      <circle cx="180" cy="180" r="5" fill="#983f1f" />
       <g opacity="0.5">
-        <circle cx="470" cy="140" r="46" stroke="#1f8a7a" strokeWidth="1.2" />
+        <circle cx="470" cy="140" r="46" stroke="#b4532e" strokeWidth="1.2" />
         <circle cx="510" cy="170" r="46" stroke="#16324f" strokeWidth="1.2" />
       </g>
     </svg>
