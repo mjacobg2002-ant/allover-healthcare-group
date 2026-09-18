@@ -1,0 +1,125 @@
+{
+  "note": "All assets downloaded from the live source site https://www.alloverhealthcaregroup.com/ for concept-presentation purposes only. Not re-hosted for production. Most photos on the source site are generic stock/clip-art rather than authentic first-party photography.",
+  "assets": [
+    {
+      "file": "AlloverLogo.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/AlloverLogo.png",
+      "dimensions": "314x52",
+      "type": "logo",
+      "usage": "Header, footer, favicon reference — authentic brand wordmark",
+      "usedInConcept": true
+    },
+    {
+      "file": "favicon.ico",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/favicon.ico",
+      "dimensions": "16x16",
+      "type": "logo",
+      "usage": "Browser tab favicon",
+      "usedInConcept": true
+    },
+    {
+      "file": "prp-Services.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/prp-Services.png",
+      "dimensions": "700x466",
+      "type": "photograph (stock)",
+      "usage": "Hero primary visual — group therapy session",
+      "usedInConcept": true
+    },
+    {
+      "file": "about.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/about.png",
+      "dimensions": "200x254",
+      "type": "photograph (stock)",
+      "usage": "Community care section — supportive conversation",
+      "usedInConcept": true
+    },
+    {
+      "file": "SubHome.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/SubHome.png",
+      "dimensions": "150x100",
+      "type": "photograph (stock, low-res)",
+      "usage": "Community care section — small inset frame",
+      "usedInConcept": true
+    },
+    {
+      "file": "carf.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/carf.png",
+      "dimensions": "108x108",
+      "type": "accreditation mark (CARF)",
+      "usage": "Held in asset folder only — OMITTED from concept pending CARF verification",
+      "usedInConcept": false
+    },
+    {
+      "file": "Therapy.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/Therapy.png",
+      "dimensions": "698x555",
+      "type": "clip-art",
+      "usage": "Not used — 'Time to Heal' clock graphic (too informal for polished concept)",
+      "usedInConcept": false
+    },
+    {
+      "file": "Outpatient.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/Outpatient.png",
+      "dimensions": "699x516",
+      "type": "clip-art / diagram",
+      "usage": "Not used — CBT diagram (prompt forbids generic brain/puzzle illustrations)",
+      "usedInConcept": false
+    },
+    {
+      "file": "PRP-Programs.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/PRP-Programs.png",
+      "dimensions": "600x387",
+      "type": "clip-art",
+      "usage": "Not used — 'We Can Help' sticky-note graphic (too informal)",
+      "usedInConcept": false
+    },
+    {
+      "file": "about1.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/about1.png",
+      "dimensions": "200x133",
+      "type": "photograph (stock)",
+      "usage": "Not used in current layout — held as spare",
+      "usedInConcept": false
+    },
+    {
+      "file": "SubHome2.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/SubHome2.png",
+      "dimensions": "150x100",
+      "type": "photograph (stock, low-res)",
+      "usage": "Not used — spare",
+      "usedInConcept": false
+    },
+    {
+      "file": "SubHome3.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/SubHome3.png",
+      "dimensions": "150x100",
+      "type": "photograph (stock, low-res)",
+      "usage": "Not used — spare",
+      "usedInConcept": false
+    },
+    {
+      "file": "thumb_AllOverRotate1.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/thumb_AllOverRotate1.png",
+      "dimensions": "72x72",
+      "type": "thumbnail",
+      "usage": "Not used — too small",
+      "usedInConcept": false
+    },
+    {
+      "file": "thumb_AllOverRotate2.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/thumb_AllOverRotate2.png",
+      "dimensions": "72x72",
+      "type": "thumbnail",
+      "usage": "Not used — too small",
+      "usedInConcept": false
+    },
+    {
+      "file": "thumb_AllOverRotate3.png",
+      "originalUrl": "https://www.alloverhealthcaregroup.com/Images/AlloverHealthCareImages/thumb_AllOverRotate3.png",
+      "dimensions": "72x72",
+      "type": "thumbnail",
+      "usage": "Not used — too small",
+      "usedInConcept": false
+    }
+  ]
+}
