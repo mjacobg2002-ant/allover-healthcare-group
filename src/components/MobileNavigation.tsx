@@ -63,7 +63,7 @@ export function MobileNavigation({ open, onClose, items }: Props) {
         className="absolute right-0 top-0 flex h-full w-[86%] max-w-sm flex-col bg-ivory shadow-2xl"
       >
         <div className="flex items-center justify-between border-b border-border px-5 py-4">
-          <img src={IMG.logo} alt="Allover Healthcare Group" className="h-8 w-auto" />
+          <img src={IMG.logo} alt="Allover Healthcare Group" className="h-11 w-auto" />
           <button
             ref={closeBtnRef}
             onClick={onClose}

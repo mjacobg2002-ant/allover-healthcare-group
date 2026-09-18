@@ -35,12 +35,12 @@ export function SiteHeader() {
         scrolled ? 'border-border bg-ivory/95 shadow-sm backdrop-blur' : 'border-transparent bg-ivory'
       }`}
     >
-      <div className="container-x flex h-[76px] items-center justify-between gap-4 sm:h-[88px]">
+      <div className="container-x flex h-[84px] items-center justify-between gap-4 sm:h-24">
         <a href="#top" className="flex shrink-0 items-center" aria-label={ORG.name}>
           <img
             src={IMG.logo}
             alt="Allover Healthcare Group — Healthcare, Technology, Education Solutions"
-            className="h-12 w-auto sm:h-14 lg:h-16"
+            className="h-14 w-auto sm:h-16 lg:h-[72px]"
             width={2166}
             height={704}
           />
@@ -51,7 +51,7 @@ export function SiteHeader() {
             <a
               key={item.label}
               href={item.href}
-              className="rounded-full px-3 py-2 text-[0.92rem] font-medium text-ink/85 transition-colors hover:bg-primary-soft hover:text-primary"
+              className="whitespace-nowrap rounded-full px-3 py-2 text-[0.92rem] font-medium text-ink/85 transition-colors hover:bg-primary-soft hover:text-primary"
             >
               {item.label}
             </a>
@@ -65,11 +65,11 @@ export function SiteHeader() {
             aria-label={`Call main office ${ORG.phone.main} ${ORG.phone.mainExt}`}
           >
             <Phone className="h-4 w-4" aria-hidden="true" />
-            <span className="hidden text-sm font-semibold xl:inline">
+            <span className="hidden whitespace-nowrap text-sm font-semibold xl:inline">
               {ORG.phone.main} {ORG.phone.mainExt}
             </span>
           </a>
-          <a href={LINKS.makeReferral} className="btn-primary">
+          <a href={LINKS.makeReferral} className="btn-primary whitespace-nowrap">
             Make a referral <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </a>
         </div>
