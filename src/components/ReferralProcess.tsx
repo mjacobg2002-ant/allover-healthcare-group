@@ -4,7 +4,7 @@ import { ORG, LINKS } from '../config/site'
 
 export function ReferralProcess() {
   return (
-    <section id="referrals" className="scroll-mt-20 bg-sage py-16 md:py-24" aria-labelledby="referrals-h">
+    <section id="referrals" className="scroll-mt-28 bg-sage py-16 md:py-24" aria-labelledby="referrals-h">
       <div className="container-x">
         <div className="reveal max-w-2xl">
           <p className="eyebrow text-primary">Referrals</p>

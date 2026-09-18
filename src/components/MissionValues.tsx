@@ -2,7 +2,7 @@ import { MISSION } from '../config/content'
 
 export function MissionValues() {
   return (
-    <section id="mission" className="scroll-mt-20 bg-ivory py-16 md:py-24" aria-labelledby="mission-h">
+    <section id="mission" className="scroll-mt-28 bg-ivory py-16 md:py-24" aria-labelledby="mission-h">
       <div className="container-x">
         <div className="reveal mx-auto max-w-3xl text-center">
           <p className="eyebrow justify-center text-primary">Our mission</p>

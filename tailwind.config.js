@@ -13,28 +13,28 @@ export default {
         border: '#d5e0ee',
         silver: '#b0b0b0', // logo swoosh neutral accent
 
-        // Primary — deep royal navy (the wordmark)
+        // Primary — the logo's lighter azure blue (kept dark enough for AA text)
         primary: {
-          DEFAULT: '#0a2a80',
-          hover: '#071f60',
-          soft: '#e4ebf7',
+          DEFAULT: '#0e79c4',
+          hover: '#0a63a6',
+          soft: '#e4f2fb',
         },
-        // Secondary — deepest navy for dark sections & footer
+        // Secondary — deep royal navy for dark sections, footer & authority
         navy: {
           DEFAULT: '#0c2748',
           hover: '#081b34',
           soft: '#e5ecf3',
         },
         // Bright brand azure — accents, focus, motif, hover fills (large/deco use)
-        sky: '#0b9fe8',
+        sky: '#00a0f0',
         // Division accents
-        health: '#0a2a80', // navy — healthcare (matches primary)
-        tech: '#0e6fbf', // readable azure — technology
+        health: '#0e79c4', // lighter azure — healthcare (matches primary)
+        tech: '#123a86', // deep royal blue — technology
         academy: '#b7791f', // warm amber/gold — academy differentiator
         // States
-        focus: '#0b9fe8',
+        focus: '#00a0f0',
         error: '#b3261e',
-        success: '#0e6fbf',
+        success: '#0e79c4',
       },
       fontFamily: {
         serif: ['Fraunces', 'Georgia', 'serif'],

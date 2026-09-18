@@ -40,7 +40,7 @@ export function SiteFooter() {
           <img
             src={IMG.logo}
             alt="Allover Healthcare Group"
-            className="h-12 w-auto rounded-lg bg-white px-3 py-2"
+            className="h-16 w-auto rounded-lg bg-white px-4 py-3 sm:h-20"
             width={2166}
             height={704}
           />

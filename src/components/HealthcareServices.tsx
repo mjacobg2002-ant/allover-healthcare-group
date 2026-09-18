@@ -14,7 +14,7 @@ const icons = [Brain, HandHeart, Users2, ShieldPlus, Puzzle, Briefcase]
 
 export function HealthcareServices() {
   return (
-    <section id="services" className="scroll-mt-20 bg-ivory py-16 md:py-24" aria-labelledby="services-h">
+    <section id="services" className="scroll-mt-28 bg-ivory py-16 md:py-24" aria-labelledby="services-h">
       <div className="container-x">
         <div className="reveal max-w-2xl">
           <p className="eyebrow text-health">Allover Healthcare</p>

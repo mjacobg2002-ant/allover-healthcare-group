@@ -6,7 +6,7 @@ export function CareWareFeature() {
   return (
     <section
       id="careware"
-      className="scroll-mt-20 border-y border-tech/15 bg-tech/[0.04] py-16 md:py-24"
+      className="scroll-mt-28 border-y border-tech/15 bg-tech/[0.04] py-16 md:py-24"
       aria-labelledby="careware-h"
     >
       <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-14">

@@ -21,7 +21,7 @@ export function AudiencePathways() {
   const current = PATHWAYS[active]
 
   return (
-    <section id="pathways" className="scroll-mt-20 bg-navy py-16 text-ivory md:py-24" aria-labelledby="pathways-h">
+    <section id="pathways" className="scroll-mt-28 bg-navy py-16 text-ivory md:py-24" aria-labelledby="pathways-h">
       <div className="container-x">
         <div className="reveal max-w-2xl">
           <p className="eyebrow text-white/70">Find your route</p>

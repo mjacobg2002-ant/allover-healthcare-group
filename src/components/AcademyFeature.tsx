@@ -6,7 +6,7 @@ export function AcademyFeature() {
   return (
     <section
       id="academy"
-      className="scroll-mt-20 bg-academy/[0.06] py-16 md:py-24"
+      className="scroll-mt-28 bg-academy/[0.06] py-16 md:py-24"
       aria-labelledby="academy-h"
     >
       <div className="container-x">

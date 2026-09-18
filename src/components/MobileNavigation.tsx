@@ -52,7 +52,7 @@ export function MobileNavigation({ open, onClose, items }: Props) {
   if (!open) return null
 
   return (
-    <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menu">
+    <div className="fixed inset-0 z-50 xl:hidden" role="dialog" aria-modal="true" aria-label="Menu">
       <div
         className="absolute inset-0 bg-ink/50 backdrop-blur-sm"
         onClick={onClose}

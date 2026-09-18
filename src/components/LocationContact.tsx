@@ -5,7 +5,7 @@ export function LocationContact() {
   const { address, phone, email, emailHref, mapsDirections, mapsEmbed } = ORG
 
   return (
-    <section id="contact" className="scroll-mt-20 bg-sage py-16 md:py-24" aria-labelledby="contact-h">
+    <section id="contact" className="scroll-mt-28 bg-sage py-16 md:py-24" aria-labelledby="contact-h">
       <div className="container-x">
         <div className="reveal max-w-2xl">
           <p className="eyebrow text-primary">Location &amp; contact</p>

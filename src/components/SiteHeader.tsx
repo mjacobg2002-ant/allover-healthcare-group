@@ -35,23 +35,23 @@ export function SiteHeader() {
         scrolled ? 'border-border bg-ivory/95 shadow-sm backdrop-blur' : 'border-transparent bg-ivory'
       }`}
     >
-      <div className="container-x flex h-[68px] items-center justify-between gap-4">
+      <div className="container-x flex h-[76px] items-center justify-between gap-4 sm:h-[88px]">
         <a href="#top" className="flex shrink-0 items-center" aria-label={ORG.name}>
           <img
             src={IMG.logo}
             alt="Allover Healthcare Group — Healthcare, Technology, Education Solutions"
-            className="h-10 w-auto sm:h-11"
+            className="h-12 w-auto sm:h-14 lg:h-16"
             width={2166}
             height={704}
           />
         </a>
 
-        <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-1 xl:flex" aria-label="Primary">
           {NAV.map((item) => (
             <a
               key={item.label}
               href={item.href}
-              className="rounded-full px-2.5 py-2 text-[0.88rem] font-medium text-ink/85 transition-colors hover:bg-primary-soft hover:text-primary xl:px-3 xl:text-[0.9rem]"
+              className="rounded-full px-3 py-2 text-[0.92rem] font-medium text-ink/85 transition-colors hover:bg-primary-soft hover:text-primary"
             >
               {item.label}
             </a>
@@ -76,7 +76,7 @@ export function SiteHeader() {
 
         <button
           onClick={() => setOpen(true)}
-          className="btn-ghost h-11 w-11 rounded-full p-0 lg:hidden"
+          className="btn-ghost h-11 w-11 rounded-full p-0 xl:hidden"
           aria-label="Open menu"
           aria-expanded={open}
         >
